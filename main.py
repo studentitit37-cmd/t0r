@@ -55,18 +55,41 @@
 #
 # hi.hi_print()
 
-class computer:
- def calculate(self):
-  print("calculate started")
+# class computer:
+#  def calculate(self):
+#   print("calculate started")
+#
+# class display:
+#     def display(self):
+#         print("display started")
+#
+#
+# class phone(display,computer):
+#     pass
+#
+# phone = phone()
+# phone =display()
+# phone =computer()
 
-class display:
-    def display(self):
-        print("display started")
+# try:
+#     print("ffg")
+#     print(ytd)
+#     print("gg")
+# except:
+#     print("oops error")
 
+# try:
+#    print("Hello World")
+#    print("Hello again")
+#    print(hkhjl)
+# except:ZeroDivisionError
+# print("ZeroDivisionError")
+# except:NameError
+# print("NameError")
 
-class phone(display,computer):
-    pass
-
-phone = phone()
-phone =display()
-phone =computer()
+try:
+    x=int(input("Enter a number: "))
+    res =10/x
+    print(res)
+except(ZeroDivisionError, ValueError)as error:
+    print("помилка")
